@@ -138,32 +138,47 @@
     }
 
    /* hero css */
-   .hero-content h1{
-    font-weight: 600;
-    font-size: 80px;
-    line-height: 132px;
-    letter-spacing: -0.581818px;
-    text-transform: uppercase    ;
-    color: #333333;
-    width: 890px;
-    margin-top: 40px;
-    
-   }
-   h1 span{
+   .hero-number-content {
+    display: flex;
+    gap: 25px;
+}
+
+.number-content p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+/* identical to box height, or 17px */
+    text-transform: uppercase;
+
+/* Orange */
+    color: #F2994A;
+    margin-top: 15px;
+}
+
+
+.text-content span{
     color: #F2994A;
 }
-   .hero-content p{
+.hero-image {display: flex;
+    justify-content: center;}
+.text-content h2 {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 133px;
+    letter-spacing: -0.581818px;
+    color: #333333;
+}
+
+.text-content p {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
+/* or 188% */
     letter-spacing: -0.625263px;
+
+/* Gray 3 */
     color: #828282;
-    width: 400px;
-   }
-   
-   .hero-image img {
-    width: auto;
-    height: 640px;
+    width: 460px;
 }
 /* learn-englis css */
    
@@ -175,7 +190,10 @@
     color: #333333;
     width: 560px;
 }
-
+.learn-content {
+    margin: 15px;
+    margin-top: 110px;
+}
 .single-text p {
     font-weight: 400;
     font-size: 20px;
@@ -215,7 +233,9 @@
     
     
     }
-    
+    .choose-content {
+        margin-top: 82px;
+    }
     .choose-content h2 {
         font-weight: 700;
         font-size: 45px;
@@ -297,6 +317,12 @@
     margin-top: 25px;
     padding-left: 100px;
 }
+.card-item-1 h2,p {
+    margin: 21px;
+}
+.card-item-1 {
+    box-shadow: 0 0 15px 3px#eee;
+}
 .card-item p {
     font-style: normal;
     font-weight: 400;
@@ -307,10 +333,11 @@
  /* top-mentor close */
 
  .cards{
-    width: 50%;
+    width: 75%;
     background-color: #F8F8F8;
     padding: 15px;
     border-radius: 14px;
+    height: 100vh;
  }
  .title h2 {
     font-weight: 600;
@@ -347,7 +374,7 @@ button {
    
     
 }
-
+.col-item-2 .cards {box-shadow: 0 4px 61px 1px#F2994C;}
 .col-item-2 p {
     color: #eee;
 }
@@ -355,6 +382,13 @@ button {
     width: 160px;
 }
 
+.how-much {
+    margin-top: 79px;
+}
+
+.info-item {
+    margin-top: 38px;
+}
 .how-much p {
    
     font-weight: 400;
