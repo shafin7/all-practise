@@ -335,9 +335,8 @@
  .cards{
     width: 75%;
     background-color: #F8F8F8;
-    padding: 15px;
+    padding: 40px 15px;
     border-radius: 14px;
-    height: 100vh;
  }
  .title h2 {
     font-weight: 600;
@@ -362,7 +361,7 @@ button {
     border: none;
     padding: 10px 33px;
     border-radius: 21px;
-    margin-top:15px ;
+    margin-top:15px;
 }
 .info-row {
     display: flex;
@@ -374,7 +373,7 @@ button {
    
     
 }
-.col-item-2 .cards {box-shadow: 0 4px 61px 1px#F2994C;}
+.col-item-2 .cards {box-shadow: 0 30px 20px #ff760085;}
 .col-item-2 p {
     color: #eee;
 }
@@ -503,4 +502,13 @@ p.degree {
 }
  .footer-menu .theme-text{
     color: #F2994A;
+}
+.cards .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards .description p {
+    width: 100%;
 }
